@@ -9,7 +9,10 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
+    <p>
+      Witamy na nowej stronie opartej o Gatsby JS. Zaraz się przekonamy czy
+      gatsby cloud działa tak jak to sobie wyobrażam.
+    </p>
     <p>Now go build something great.</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
