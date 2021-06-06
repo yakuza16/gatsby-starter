@@ -1,6 +1,12 @@
 import * as React from "react"
 import "./button.css"
 
-const Button = () => <button className="primary">Kliknij mnie</button>
+const activateLasers = () => console.log("hej")
+
+const Button = () => (
+  <button onClick={activateLasers} className="primary">
+    Kliknij mnie
+  </button>
+)
 
 export default Button
